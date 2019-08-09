@@ -1,7 +1,7 @@
 {
   "name": "@martinreiche/gatsby-firestore",
   "description": "Gatsby source plugin for connecting Firestore as data source (including subcollections)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "node": ">=8.13.0"
   },
