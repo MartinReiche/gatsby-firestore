@@ -1,7 +1,6 @@
-# gatsby-source-firestore [![npm](https://img.shields.io/npm/v/@martinreiche/gatsby-firestore)](https://www.npmjs.com/package/@martinreiche/gatsby-source-firestore) ![node](https://img.shields.io/node/v/firebase-admin)
+# gatsby-firestore [![npm](https://img.shields.io/npm/v/@martinreiche/gatsby-firestore)](https://www.npmjs.com/package/@martinreiche/gatsby-firestore) ![node](https://img.shields.io/node/v/firebase-admin)
 
-Gatsby source plugin for building websites using
-[Firebase Firestore](https://firebase.google.com/products/firestore)
+Gatsby plugin for connecting [Firebase Firestore](https://firebase.google.com/products/firestore)
 as a data source. Supports subcollections.
 
 ## Usage
@@ -15,9 +14,9 @@ as a data source. Supports subcollections.
 3. Add `gatsby-source-firestore` as a dependency by running using `npm` or `yarn`:
 
    ```sh
-   npm i @martinreiche/gatsby-source-firestore
+   npm i @martinreiche/gatsby-firestore
    # or
-   yarn add @martinreiche/gatsby-source-firestore
+   yarn add @martinreiche/gatsby-firestore
    ```
 
 4. Configure settings at `gatsby-config.js`, for example:
@@ -26,7 +25,7 @@ as a data source. Supports subcollections.
    module.exports = {
      plugins: [
        {
-         resolve: `gatsby-source-firestore`,
+         resolve: `@martinreiche/gatsby-firestore`,
          options: {
            // credential or appConfig
            credential: require(`./credentials.json`),
@@ -98,7 +97,7 @@ a subcollection of `authors` in Firestore, you could do the following:
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-source-firestore`,
+      resolve: `@martinreiche/gatsby-firestore`,
       options: {
         // credential or appConfig
         credential: require(`./credentials.json`),
