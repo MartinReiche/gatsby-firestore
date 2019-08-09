@@ -1,4 +1,4 @@
-# gatsby-source-firestore [![npm](https://img.shields.io/npm/v/@martinreiche/gatsby-source-firestore)](https://www.npmjs.com/package/@martinreiche/gatsby-source-firestore) ![node](https://img.shields.io/node/v/firebase-admin)
+# gatsby-source-firestore [![npm](https://img.shields.io/npm/v/@martinreiche/gatsby-firestore)](https://www.npmjs.com/package/@martinreiche/gatsby-source-firestore) ![node](https://img.shields.io/node/v/firebase-admin)
 
 Gatsby source plugin for building websites using
 [Firebase Firestore](https://firebase.google.com/products/firestore)
