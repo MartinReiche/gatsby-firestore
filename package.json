@@ -1,0 +1,41 @@
+{
+  "name": "@martinreiche/gatsby-firestore",
+  "description": "Gatsby source plugin for connecting Firestore as data source (including subcollections)",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=8.13.0"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "gatsby-source",
+    "gatsby",
+    "subcollections"
+  ],
+  "main": "gatsby-node.js",
+  "files": [
+    "gatsby-node.js",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "prettier --write gatsby-node.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^8.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinReiche/gatsby-firestore.git"
+  },
+  "author": "Martin Reiche <martin@reiche.dev> (https://martinreiche.dev/)",
+  "bugs": {
+    "url": "https://github.com/MartinReiche/gatsby-firestore/issues"
+  },
+  "homepage": "https://github.com/MartinReiche/gatsby-firestore#readme"
+}
