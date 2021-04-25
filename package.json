@@ -1,7 +1,7 @@
 {
   "name": "@martinreiche/gatsby-firestore",
   "description": "Gatsby source plugin for connecting Firestore as data source (including subcollections)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "node": ">=8.13.0"
   },
@@ -23,10 +23,10 @@
     "lint": "prettier --write gatsby-node.js"
   },
   "dependencies": {
-    "firebase-admin": "^8.3.0"
+    "firebase-admin": "^9.6.0"
   },
   "devDependencies": {
-    "prettier": "^1.15.3"
+    "prettier": "^2.2.1"
   },
   "license": "MIT",
   "repository": {
